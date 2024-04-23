@@ -86,7 +86,14 @@ main {
     height: 50%;
 }
 
-.list-done:before {
+.list {
+    font-size: 17px;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.done:before {
     content: "\2714";
     color: green;
     font-size: 10px;
@@ -99,12 +106,48 @@ main {
     vertical-align: middle;
 }
 
-.list-done {
-    font-size: 17px;
-    color: black;
-    font-weight: 600;
+.undone:before {
+    content: "\2716";
+    color: red;
+    font-size: 10px;
+    font-weight: bold;
+    border: 2px solid red;
+    border-radius: 50%;
+    padding: 2px;
+    margin-right: 5px;
+    margin-left: 3px;
+    vertical-align: middle;
 }
 
-.label
+.label {
+    font-size: 10px;
+    font-weight: 200;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 10px;
+    margin-left: 3px;
+}
 
+.editorial {
+    background-color: rgb(69, 171, 234);
+}
 
+.goals {
+    background-color: rgb(156, 114, 228);
+}
+
+.recruiting {
+    background-color: rgb(100, 192, 169);
+}
+
+.mobile {
+    background-color: rgb(242, 158, 51);
+}
+
+.website {
+    background-color: rgb(216, 99, 161);
+}
+
+.sales {
+    background-color: rgb(176, 201, 38);
+}
